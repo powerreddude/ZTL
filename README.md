@@ -42,4 +42,19 @@ TODO
 
 TODO
 
+```
+cd ~/Documents/zettlekasten
+cp -rT ZTL/ .
+git clone git@github.com:powerreddude/ZTL.git
+git remote set-url --push origin no_push
+rm -rf ZTL
+```
+
+## Update
+
+```
+# Make sure to Commit any changes made before running the below
+git pull --rebase
+```
+
 
