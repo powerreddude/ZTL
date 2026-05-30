@@ -45,7 +45,7 @@ TODO
 ```
 cd ~/Documents/zettlekasten
 cp -rT ZTL/ .
-git clone git@github.com:powerreddude/ZTL.git
+git clone git@github.com:donnismoore/ZTL.git
 git remote set-url --push origin no_push
 rm -rf ZTL
 ```
